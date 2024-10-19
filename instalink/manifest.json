@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "My Basic Extension",
+    "version": "1.0",
+    "description": "A super basic Chrome extension",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "assets/icon.png",
+        "48": "assets/icon.png",
+        "128": "assets/icon.png"
+      }
+    },
+    "permissions": ["storage"]
+  }
+  
